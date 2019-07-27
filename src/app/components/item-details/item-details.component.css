@@ -1,0 +1,55 @@
+:host {
+    display: grid;
+  }
+  
+.root {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 1fr;
+  } 
+  
+.title {
+    display: grid;
+    grid-template-columns:  auto 2fr  auto;
+    grid-row: 1;
+    grid-column: 1 / -1;
+    font-size: 25px;
+    font-weight: bold;
+  } 
+
+button{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    box-sizing: border-box;  
+    font-size: 20px; 
+    background-color:lightpink ;
+}
+ 
+  .title-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+img {
+    margin: 20px;
+    width:400px;
+    height: 400x;
+    border-radius: 30px;
+    display: inline-block; 
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 70px;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.buttons {
+    grid-template-rows: auto 1fr auto;
+}

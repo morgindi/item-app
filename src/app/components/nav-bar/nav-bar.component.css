@@ -1,0 +1,31 @@
+:host{
+    display: grid;
+}
+
+.root{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: lightpink;
+}
+
+.item{
+    display: grid;
+    min-width: 100px;
+    font-size: 25px;
+    transition: 0.7s;
+}
+
+.item.selected{
+    background: white;
+    color: rgb(141, 141, 228);
+}
+.item a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.item.selected a{
+    color:lightpink;
+}

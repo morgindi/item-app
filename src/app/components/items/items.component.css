@@ -1,0 +1,39 @@
+:host{
+    display: grid;
+}
+
+h1{
+    color: lightpink;
+    text-align: center;
+}
+.root{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block; 
+}
+
+img{
+    margin: 25px;
+    padding: 10px;
+    border: 1px solid lightpink;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+img:hover{
+    box-shadow: 7px 7px lightpink;
+    transition: box-shadow 1s;
+}
+.name{
+    text-align: center;
+    font-size: 30px;
+}

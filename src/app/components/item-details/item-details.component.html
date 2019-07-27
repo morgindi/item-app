@@ -1,0 +1,18 @@
+<div class="root" *ngIf="item">
+    <div class="title">
+        <button (click)="goPrev()">Prev</button>
+
+        <div class="title-text">
+            {{item.itemNumber}}. {{item.name}}
+        </div>
+        <button (click)="goNext()">Next</button>
+    </div>
+
+    <img src="assets/images/add-list.png">
+    <p> {{item.name}} number: {{item.itemNumber}}
+        <br>
+        {{item.name}}  amount: {{item.amount}}
+        <br>
+        {{item.name}}  code: {{item.inventoryCode}}
+    </p>
+</div>

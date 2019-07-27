@@ -1,0 +1,21 @@
+:host{
+    display: grid;
+}
+
+h1{
+    color: lightpink;
+    text-align: center;
+}
+
+img{
+    margin: 25px;
+    padding: 10px;
+    border: 1px solid lightpink;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

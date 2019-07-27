@@ -1,0 +1,7 @@
+<h1>Items</h1>
+<div class="root">
+    <div *ngFor="let item of items" class="item" (click)="onItemClick(item.itemNumber)">
+        <div class="name"> {{item.name}}</div>
+        <img src="assets/images/add.png">      
+    </div>
+</div>
